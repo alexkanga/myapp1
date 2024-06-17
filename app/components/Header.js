@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Header() {
   return (
   <>
@@ -7,9 +8,9 @@ export default function Header() {
             <div className="logo-area">
               <div className="row align-items-center">
                 <div className="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-                  <a className="d-block" href="index.html">
+                  <Link className="d-block" href="/">
                     <img loading="lazy" src="images/logo.png" alt="MAWU" />
-                  </a>
+                  </Link>
                 </div>
                 {/* logo end */}
                 <div className="col-lg-9 header-right">
@@ -40,6 +41,7 @@ export default function Header() {
                               <li>
                                 <a
                                   title="Facebook"
+                                  target="_blank"
                                   href="https://www.facebook.com/profile.php?id=61555593353534"
                                 >
                                   <span className="social-icon">
@@ -48,6 +50,7 @@ export default function Header() {
                                 </a>
                                 <a
                                   title="Linkedin"
+                                  target="_blank"
                                   href="https://github.com/themefisher.com"
                                 >
                                   <span className="social-icon">
@@ -56,6 +59,7 @@ export default function Header() {
                                 </a>
                                 <a
                                   title="Instagram"
+                                  target="_blank"
                                   href="https://instagram.com/themefisher.com"
                                 >
                                   <span className="social-icon">
@@ -64,6 +68,7 @@ export default function Header() {
                                 </a>
                                 <a
                                   title="Twitter"
+                                  target="_blank"
                                   href="https://twitter.com/themefisher.com"
                                 >
                                   <span className="social-icon">
@@ -78,9 +83,9 @@ export default function Header() {
                       </div>
                     </li>
                     <li className="header-get-a-quote">
-                      <a className="btn btn-primary" href="contact.html">
+                      <Link className="btn btn-primary" href="contact">
                         En savoir plus
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   {/* Ul end */}
@@ -112,59 +117,59 @@ export default function Header() {
                   <div id="navbar-collapse" className="collapse navbar-collapse">
                     <ul className="nav navbar-nav mr-auto">
                       <li className="nav-item active">
-                        <a className="nav-link" href="index.html">
+                        <Link className="nav-link" href="/">
                           Accueil
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item dropdown">
-                        <a
+                        <Link
                           href="#"
                           className="nav-link dropdown-toggle"
                           data-toggle="dropdown"
                         >
                           Qui sommes-nous ? <i className="fa fa-angle-down" />
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu" role="menu">
                           <li>
-                            <a href="directeur.html">Mot du Directeur</a>
+                            <Link href="directeur">Mot du Directeur</Link>
                           </li>
                           <li>
-                            <a href="presentation.html">Présentation</a>
+                            <Link href="presentation">Présentation</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="nav-item dropdown">
-                        <a
+                        <Link
                           href="#"
                           className="nav-link dropdown-toggle"
                           data-toggle="dropdown"
                         >
                           Services <i className="fa fa-angle-down" />
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu" role="menu">
                           <li>
-                            <a href="services.html">Immobilier</a>
+                            <Link href="immobilier">Immobilier</Link>
                           </li>
                           <li>
-                            <a href="services.html">Imprimerie</a>
+                            <Link href="imprimerie">Imprimerie</Link>
                           </li>
                           <li>
-                            <a href="services.html">Transport</a>
+                            <Link href="transport">Transport</Link>
                           </li>
                           <li>
-                            <a href="services.html">Education Scolaire</a>
+                            <Link href="education">Education Scolaire</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="galerie.html">
+                        <Link className="nav-link" href="galerie-photos">
                           Réalisations
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="contact.html">
+                        <Link className="nav-link" href="contact">
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

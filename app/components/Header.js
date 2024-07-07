@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function Header() {
   return (
   <>
@@ -9,7 +10,14 @@ export default function Header() {
               <div className="row align-items-center">
                 <div className="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                   <Link className="d-block" href="/">
-                    <img loading="lazy" src="images/logo.png" alt="MAWU" />
+                    <Image loading="lazy"
+                     src="/images/logo.png" 
+                     alt="MAWU" 
+                     width={0}
+                     height={0}
+                     sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }} 
+                     />
                   </Link>
                 </div>
                 {/* logo end */}

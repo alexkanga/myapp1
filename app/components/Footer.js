@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function Footer(){
     return (
         <>
@@ -9,14 +10,18 @@ export default function Footer(){
             <div className="row justify-content-between">
               <div className="col-lg-4 col-md-6 footer-widget footer-about">
                 <h3 className="widget-title">A propos de nous</h3>
-                <img
+                <Image
                   loading="lazy"
                   className="footer-logo"
-                  src="images/footer-logo.png"
-                  alt="Constra"
+                  src="/images/footer-logo.png"
+                  alt="Footer Logo"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }} 
                 />
                 <p>
-                  Location &amp; vente de tous types de véhicules et d'engins -
+                  Location &amp; vente de tous types de véhicules et d&apos;engins -
                   Gestion locative - Plan - Suivi de chantier - Gros &amp; seconde
                   oeuvre - Expertise de travaux - Décapage - Gestion de biens -
                   Permis de construire - Devis quantitatif &amp; estimatif -
@@ -69,7 +74,7 @@ export default function Footer(){
                 <h3 className="widget-title">Nos Horaires</h3>
                 <div className="working-hours">
                   Nous travaillons 7 jours sur 7, tous les jours sauf jours
-                  fériés. Contactez-nous en cas d'urgence, avec notre Hotline et
+                  fériés. Contactez-nous en cas d&rsquo;urgence, avec notre Hotline et
                   notre formulaire de contact.
                   <br />
                   <br /> Lundi - Vendredi:{" "}

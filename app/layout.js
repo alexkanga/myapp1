@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         {children}
         {/* Javascript Files================================================== */}
         {/* initialize jQuery Library */}
-        <Script src="plugins/jQuery/jquery.min.js" beforeInteractive ></Script>
+        <Script src="plugins/jQuery/jquery.min.js" defer></Script>
         {/* Bootstrap jQuery */}
         <Script src="plugins/bootstrap/bootstrap.min.js" defer></Script>
         {/* Slick Carousel */}

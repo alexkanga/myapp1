@@ -309,10 +309,12 @@ export default function Home() {
                 {/* Col end */}
                 <div className="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
                   <div className="ts-facts-img">
-                    <img
+                    <Image
                       loading="lazy"
                       src="images/icon-image/service-icon5.png"
                       alt="facts-img"
+                       width={60}
+                      height={60}
                     />
                   </div>
                   <div className="ts-facts-content">

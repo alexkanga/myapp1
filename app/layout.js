@@ -21,25 +21,25 @@ export default function RootLayout({ children }) {
         {children}
         {/* Javascript Files================================================== */}
         {/* initialize jQuery Library */}
-        <Script src="plugins/jQuery/jquery.min.js" strategy="lazyOnload"></Script>
+        <Script src="plugins/jQuery/jquery.min.js" strategy="beforeInteractive" ></Script>
         {/* Bootstrap jQuery */}
-        <Script src="plugins/bootstrap/bootstrap.min.js" defer></Script>
+        <Script src="plugins/bootstrap/bootstrap.min.js" strategy="beforeInteractive"></Script>
         {/* Slick Carousel */}
-        <Script src="plugins/slick/slick.min.js" defer></Script>
-        <Script src="plugins/slick/slick-animation.min.js" defer></Script>
+        <Script src="plugins/slick/slick.min.js" strategy="beforeInteractive"></Script>
+        <Script src="plugins/slick/slick-animation.min.js" strategy="beforeInteractive"></Script>
         {/* Color box */}
-        <Script src="plugins/colorbox/jquery.colorbox.js" defer></Script>
+        <Script src="plugins/colorbox/jquery.colorbox.js" strategy="beforeInteractive"></Script>
         {/* shuffle */}
-        <Script src="plugins/shuffle/shuffle.min.js" defer></Script>
+        <Script src="plugins/shuffle/shuffle.min.js" strategy="beforeInteractive"></Script>
         {/* Google Map API Key*/}
         <Script
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-          defer strategy="lazyOnload"
+         strategy="beforeInteractive"
         ></Script>
         {/* Google Map Plugin*/}
-        <Script src="plugins/google-map/map.js" defer></Script>
+        <Script src="plugins/google-map/map.js" strategy="beforeInteractive"></Script>
         {/* Template custom */}
-        <Script src="js/script.js" defer></Script>
+        <Script src="js/script.js" strategy="beforeInteractive"></Script>
       </body>
     </html>
   );

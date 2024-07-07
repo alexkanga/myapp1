@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         {children}
         {/* Javascript Files================================================== */}
         {/* initialize jQuery Library */}
-        <Script src="plugins/jQuery/jquery.min.js" defer></Script>
+        <Script src="plugins/jQuery/jquery.min.js" strategy="lazyOnload"></Script>
         {/* Bootstrap jQuery */}
         <Script src="plugins/bootstrap/bootstrap.min.js" defer></Script>
         {/* Slick Carousel */}
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         {/* Google Map API Key*/}
         <Script
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-          defer
+          defer strategy="lazyOnload"
         ></Script>
         {/* Google Map Plugin*/}
         <Script src="plugins/google-map/map.js" defer></Script>

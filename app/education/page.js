@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 export const metadata = {
-  title: "AKAN | Services - Education",
-  description: "First Project Next",
+  title: "MAWU | Services - Education",
+  description: "MAWU",
 };
 
 export default function Home() {
@@ -119,19 +119,27 @@ export default function Home() {
               <div className="gap-40" />
               <div id="page-slider" className="page-slider">
                 <div className="item">
-                  <img
+                  <Image
                     loading="lazy"
                     className="img-fluid"
-                    src="images/projects/project1.jpg"
+                    src="/images/projects/project1.jpg"
                     alt="project-slider-image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
                   />
                 </div>
                 <div className="item">
-                  <img
+                  <Image
                     loading="lazy"
                     className="img-fluid"
-                    src="images/projects/project2.jpg"
+                    src="/images/projects/project2.jpg"
                     alt="project-slider-image"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
                   />
                 </div>
               </div>

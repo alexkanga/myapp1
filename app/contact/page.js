@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 export const metadata = {
-  title: "AKAN | Contact",
-  description: "First Project Next",
+  title: "MAWU | Contact",
+  description: "MAWU",
 };
 
 export default function Home() {

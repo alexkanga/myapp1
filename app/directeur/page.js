@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 import Header from "../components/Header";
 
 export const metadata = {
-  title: "AKAN | Directeur",
-  description: "First Project Next",
+  title: "MAWU | Directeur",
+  description: "Directeur",
 };
 
 export default function Home() {
@@ -56,23 +56,23 @@ export default function Home() {
         <div className="col-lg-6">
           <h3 className="column-title">M. EBOUHO GRIFFETH ULRICH ABADJINA</h3>
           <p>
-            Chers visiteurs et prospects, C'est avec une grande joie et une
-            profonde fierté que je vous accueille au nom de toute l'équipe de{" "}
+            Chers visiteurs et prospects, C&apos;est avec une grande joie et une
+            profonde fierté que je vous accueille au nom de toute l&apos;équipe de{" "}
             <span className="into-sub-title-bold">MAWU</span>. Notre entreprise
-            est tournée vers l'avenir et s'engage à vous offrir des services
+            est tournée vers l&apos;avenir et s&apos;engage à vous offrir des services
             exceptionnels dans les domaines du transport, de la construction, de
-            la location et vente de véhicules, ainsi que dans l'encadrement
+            la location et vente de véhicules, ainsi que dans l&apos;encadrement
             scolaire. Que vous soyez à la recherche de solutions de mobilité
             adaptées, de véhicules de qualité, de services de construction
-            fiables ou d'un accompagnement scolaire personnalisé, sachez que
+            fiables ou d&apos;un accompagnement scolaire personnalisé, sachez que
             chez <span className="into-sub-title-bold">MAWU</span>, nous mettons
             tout en œuvre pour répondre à vos besoins et dépasser vos attentes.
-            Nous croyons en l'importance de la confiance, de la qualité et de la
-            satisfaction de nos clients. C'est pourquoi chaque jour, notre
-            équipe s'efforce de vous offrir des solutions innovantes et des
+            Nous croyons en l&apos;importance de la confiance, de la qualité et de la
+            satisfaction de nos clients. C&apos;est pourquoi chaque jour, notre
+            équipe s&apos;efforce de vous offrir des solutions innovantes et des
             services de haut niveau. Nous sommes ravis de vous accueillir sur
             notre site et espérons que vous trouverez les informations que vous
-            recherchez. N'hésitez pas à nous contacter pour toute demande ou
+            recherchez. N&apos;hésitez pas à nous contacter pour toute demande ou
             question. Nous sommes là pour vous accompagner dans la réalisation
             de vos projets. Merci de votre intérêt pour{" "}
             <span className="into-sub-title-bold">MAWU</span>. Nous sommes
@@ -138,7 +138,7 @@ export default function Home() {
               engageons à fournir à nos clients des services de qualité, des
               produits fiables et un accompagnement personnalisé. Notre équipe
               dévouée est là pour vous conseiller et vous aider à trouver la
-              solution de mobilité ou d'encadrement scolaire qui correspond le
+              solution de mobilité ou d&apos;encadrement scolaire qui correspond le
               mieux à vos besoins.
             </p>
           </blockquote>
@@ -397,7 +397,7 @@ export default function Home() {
               alt="Constra"
             />
             <p>
-              Location &amp; vente de tous types de véhicules et d'engins -
+              Location &amp; vente de tous types de véhicules et d&apos;engins -
               Gestion locative - Plan - Suivi de chantier - Gros &amp; seconde
               oeuvre - Expertise de travaux - Décapage - Gestion de biens -
               Permis de construire - Devis quantitatif &amp; estimatif -
@@ -443,7 +443,7 @@ export default function Home() {
             <h3 className="widget-title">Nos Horaires</h3>
             <div className="working-hours">
               Nous travaillons 7 jours sur 7, tous les jours sauf jours fériés.
-              Contactez-nous en cas d'urgence, avec notre Hotline et notre
+              Contactez-nous en cas d&apos;urgence, avec notre Hotline et notre
               formulaire de contact.
               <br />
               <br /> Lundi - Vendredi:{" "}
